@@ -22,9 +22,9 @@ end
 def find_the_cheese(foods)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  #index = foods.include? do |food|
-    #food == cheese_types[0]
-  #end
+  index = foods.include? do |food|
+    food == cheese_types[0]
+  end
   return foods[1]
 
 end
