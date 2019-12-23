@@ -24,9 +24,9 @@ def find_the_cheese(foods)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   index = nil
   i = 0
-  while i < foods.length
+  while i < foods.length do
     j = 0
-    while j < cheese_types.length
+    while j < cheese_types.length do
       if foods[i] == cheese_types[j]
         index = cheese_types[j]
       end
