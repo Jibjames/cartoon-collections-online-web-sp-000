@@ -25,5 +25,5 @@ def find_the_cheese(foods)# code an argument here
   foods.include? do |food|
     food == cheese_types[0]
   end
-  
+
 end
