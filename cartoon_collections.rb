@@ -22,17 +22,8 @@ end
 def find_the_cheese(foods)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  index = nil
-  i = 0
-  while i < foods.length do
-    j = 0
-    while j < cheese_types.length do
-      if foods[i] == cheese_types[j] do
-        index = cheese_types[j]
-      end
-      j++
-    end
-    i++
-  end
-  return cheese_types[index]
+  
+  index = foods.include? {|food| food == cheese_types}
+  binding.pry
+  
 end
