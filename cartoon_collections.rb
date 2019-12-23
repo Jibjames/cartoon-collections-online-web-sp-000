@@ -25,6 +25,6 @@ def find_the_cheese(foods)# code an argument here
   index = foods.include? do |food|
     food == cheese_types[0]
   end
-  return cheese_types[0]
+  return foods[1]
 
 end
