@@ -27,7 +27,7 @@ def find_the_cheese(foods)# code an argument here
   while i < foods.length do
     j = 0
     while j < cheese_types.length do
-      if foods[i] == cheese_types[j]
+      if foods[i] == cheese_types[j] do
         index = cheese_types[j]
       end
       j++
