@@ -23,7 +23,7 @@ def find_the_cheese(foods)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-  index = foods.include? {|food| food == cheese_types}
+  index = foods.include? {|food| cheese_types}
   binding.pry
 
 end
